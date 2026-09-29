@@ -1,0 +1,8 @@
+{
+  "name": "email-to-whatsapp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start":"node src/server.js","dev":"node --watch src/server.js","auth":"node scripts/gmail-auth.js"},
+  "dependencies": {"dotenv":"^16.4.7","express":"^5.1.0","googleapis":"^161.0.0","pino":"^9.6.0","pino-pretty":"^13.0.0"}
+}
